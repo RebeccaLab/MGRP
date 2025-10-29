@@ -95,7 +95,6 @@ Developer/Maintainer: @ericodle
 
 ## TODO
 ### generate test set for FMA and add FMA preprocessing test
-### Add analysis tests
 ### Make new feature: src/hyperparameter_search
 ### Make new feature: src/fuzzy_logic
 ### Make new feature: src/multimodal_features
