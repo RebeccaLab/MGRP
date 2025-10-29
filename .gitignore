@@ -1,0 +1,42 @@
+env/
+output/
+fma-data/
+mfccs/
+
+# Training and model outputs
+# ONNX models are now tracked in git for deployment
+# *.onnx
+*.bin
+*.ckpt
+training_plots/
+evaluation_results/
+gridsearch/
+outputs/
+mnist/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+.benchmarks/
+.mypy_cache/
+
+# Additional Python cache patterns
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+
+# IDE and editor configurations
+install-pyenv-win.ps1
+devnotes.txt
+
+# Log files
+*.log
+auto_train_fma13.log
+
+
+autoencoded_data/
+gtzan-data/
