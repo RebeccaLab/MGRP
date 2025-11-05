@@ -294,7 +294,11 @@ def generate_class_distribution_plots(
     # Customize plot
     ax.set_xlabel("Genre", fontsize=12, fontweight="bold")
     ax.set_ylabel("Number of Files", fontsize=12, fontweight="bold")
-    ax.set_title("Class Distribution Across Train/Val/Test Splits", fontsize=14, fontweight="bold")
+    ax.set_title(
+        "GTZAN Dataset: Class Distribution Across Train/Val/Test Splits",
+        fontsize=14,
+        fontweight="bold",
+    )
     ax.set_xticks(x)
     ax.set_xticklabels(all_genres, rotation=45, ha="right")
     ax.legend(loc="upper right")
