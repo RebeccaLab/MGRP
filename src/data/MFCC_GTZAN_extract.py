@@ -300,7 +300,7 @@ def generate_class_distribution_plots(
         fontweight="bold",
     )
     ax.set_xticks(x)
-    ax.set_xticklabels(all_genres, rotation=45, ha="right")
+    ax.set_xticklabels([genre.lower() for genre in all_genres], rotation=45, ha="right")
     ax.legend(loc="upper right")
     ax.grid(axis="y", alpha=0.3, linestyle="--")
 
